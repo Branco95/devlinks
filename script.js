@@ -10,3 +10,9 @@ function toggleMode() {
 
   html.classList.toggle("light");
 }
+
+function sendMail() {
+  const email = "branquinho95@outlook.com";
+
+  window.open(`mailto:${email} `);
+}
